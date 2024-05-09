@@ -16,7 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}<footer>Made by <a href="mailto:george.campbell@massless.ltd">george.campbell@massless.ltd</a> in 2024</footer></body>
+      
     </html>
   );
 }
